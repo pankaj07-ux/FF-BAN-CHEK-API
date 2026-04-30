@@ -26,10 +26,10 @@ https://your-app.onrender.com/bancheck?uid=123456789
 
 📥 Installation (Local / Termux)
 
-git clone https://github.com/pankaj07-ux/FF-BAN-CHEK-API.git
-cd FF-BAN-CHEK-API
-pip install -r requirements.txt
-python main.py
+- git clone https://github.com/pankaj07-ux/FF-BAN-CHEK-API.git
+- cd FF-BAN-CHEK-API
+- pip install -r requirements.txt
+- python main.py
 
 ---
 
