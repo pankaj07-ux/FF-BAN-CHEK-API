@@ -26,8 +26,8 @@ https://your-app.onrender.com/bancheck?uid=123456789
 
 📥 Installation (Local / Termux)
 
-git clone https://github.com/yourusername/ff-ban-check-api.git
-cd ff-ban-check-api
+git clone https://github.com/pankaj07-ux/FF-BAN-CHEK-API.git
+cd FF-BAN-CHEK-API
 pip install -r requirements.txt
 python main.py
 
@@ -46,7 +46,7 @@ http://localhost:10000/bancheck?uid=123456789
 {
   "uid": "123456789",
   "nickname": "PRO_PLAYER",
-  "region": "IND",
+  "region": "BD",
   "ban_status": "Not banned"
 }
 
@@ -70,9 +70,10 @@ gunicorn main:app
 
 📄 Requirements
 
-flask
-requests
-gunicorn
+- Flask==2.3.2
+- requests==2.31.0
+- rich==13.4.2
+- gunicorn==20.1.0
 
 ---
 
@@ -86,9 +87,9 @@ gunicorn
 
 👨‍💻 Developer
 
-Pankaj Sah
-TikTok : nepali_ktwo
-InstaGram : pankaj_sah07
+- Pankaj Sah
+- TikTok : nepali_ktwo
+- InstaGram : pankaj_sah07
 
 ---
 
