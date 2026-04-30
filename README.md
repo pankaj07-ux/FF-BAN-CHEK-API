@@ -64,7 +64,7 @@ http://localhost:10000/bancheck?uid=123456789
 
 Start Command:
 
-gunicorn main:app
+gunicorn app:app
 
 ---
 
